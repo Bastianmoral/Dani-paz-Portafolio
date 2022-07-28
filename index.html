@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DANIELA PAZ PORTAFOLIO</title>
+    <link rel="stylesheet" href="src/img/styles/styles.css">
+    <link href="//db.onlinewebfonts.com/c/808d2427840352d64fbff2bc8dc40b2b?family=Object+Sans" rel="stylesheet" type="text/css"/>
+  </head>
+  <body class="body-home">
+    <div class="coming-soon-position">
+        Coming Soon
+    </div>
+    <img
+      class="daniela-paz"
+      src="src/img/daniela_paz.PNG"
+    />
+    <div
+      class="picture-container"
+    >
+    <img 
+      class="picture1"
+      id="picture1"  
+    />
+  </div>
+    <div class="fotografa-position">
+      Fotógrafa
+    </div>
+    <div
+      class="footer"
+    >
+    <a
+      class="email-position" 
+      href="mailto:hola@danielapaz.site?subject=Hola Dani, me gustaría trabajar contigo">hola@danielapaz.site</a>
+    <div class="phone-number-position">
+      +52 562363 7975
+    </div>
+    <a href="https://www.instagram.com/amor.estgr/?hl=en" class="ig-position">Instagram</a>
+    </div>
+    <script>
+      var gifImages = ["src/img/Img_frame_001.jpg","src/img/Img_frame_002.jpg","src/img/Img_frame_003.jpg","src/img/Img_frame_004.jpg","src/img/Img_frame_005.JPG","src/img/Img_frame_006.jpg","src/img/Img_frame_007.jpg","src/img/Img_frame_008.JPG","src/img/Img_frame_009.jpg","src/img/Img_frame_011.jpg","src/img/Img_frame_012.jpg","src/img/Img_frame_013.jpg","src/img/Img_frame_014.jpg","src/img/Img_frame_015.jpg","src/img/Img_frame_016.jpg","src/img/Img_frame_017.JPG","src/img/Img_frame_018.jpg","src/img/Img_frame_019.jpg",];
+
+      var currentFrame = 0; //Call it a frame because we're making a gif and every image (so every array index) will be a frame
+      function changePicture(){
+        document.getElementById("picture1").src = gifImages[currentFrame]; //Get the gif element and set its source to the current frame
+        currentFrame++; //Increase the current frame by 1
+          if(currentFrame >= gifImages.length){ //If we've gone past the end of our array of frames, then:
+              currentFrame = 0; //Reset back to frame 0
+            };
+      };
+
+      setInterval(changePicture,500);
+    </script>
+
+    <main class="container">
+    </main>
+</body>
+</html>

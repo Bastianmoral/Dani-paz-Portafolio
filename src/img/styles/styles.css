@@ -1,0 +1,144 @@
+@import url(//db.onlinewebfonts.com/c/808d2427840352d64fbff2bc8dc40b2b?family=Object+Sans);
+
+.body-home {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(235.88, 235.88, 229, 1);
+}
+
+.daniela-paz {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 22px;
+    width: 92.97%;
+    height: 26%/* 22.77% */;
+    z-index: 1;
+}
+
+.picture-container{
+    max-width: 35%;
+    max-height: 40%;
+
+}
+
+.picture1 {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 550px;
+        width: 35%;  /* 30.83% */
+        height: auto;
+}
+
+.coming-soon-position {
+    position: absolute;
+    font-family: 'object Sans';
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 1275px;
+    width: 13%;
+    height: 0;
+    color: black;
+}
+
+.fotografa-position {
+    position: absolute;
+    font-family: 'object Sans';
+    font-size: 20px;
+    margin-top: 195px;
+    margin-left: 22px;
+    width: 9.218%;
+    height: 4.81%;
+    overflow: hidden;       
+    color:black;
+}
+
+.email-position {
+    position: absolute;
+    font-family: 'Object Sans';
+    font-size: 20px;
+    margin-top: 660px;
+    margin-left: 22px;
+    width: 12.083%;
+    height: 3.29%;
+    color:black;
+}
+
+.phone-number-position{
+    position: absolute;
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    margin-top: 665px;
+    margin-left: 280px;
+    width: 11%;
+    height: 2%;
+}
+
+.ig-position {
+    position: absolute;
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color:black;
+    margin-top: 658px;
+    margin-left: 1350px;
+    width: 5%;
+    height: 0%;
+}
+
+/* .body-about {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(235.88, 235.88, 229, 1);
+}
+
+.header-about-name {
+    font-family: 'Object Sans';
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    margin-top: 61px;
+    margin-left: 66px;
+    width: 204px;
+    height: 52px;
+    overflow: hidden;
+}
+
+.header-about-work {
+    font-family: 'Object Sans';
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1633px;
+    width: 112px;
+    height: 52px;
+    overflow: hidden;
+    color: black;
+}
+
+.header-about-about {
+    font-family: 'Object Sans';
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 31px;
+    text-align: left;
+    color: black;
+    margin-left: 1754px;
+    width: 126px;
+    height: 52px;
+    overflow: hidden;
+}
+
+.img-about {
+
+}
+
+ */
