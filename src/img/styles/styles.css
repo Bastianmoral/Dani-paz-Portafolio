@@ -1,15 +1,11 @@
 @import url(//db.onlinewebfonts.com/c/808d2427840352d64fbff2bc8dc40b2b?family=Object+Sans);
 
-.body-home {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+body {
     background-color: rgba(235.88, 235.88, 229, 1);
 }
 
 .daniela-paz {
-    position: absolute;
-    margin-top: 3px;
+    margin-top: 5px;
     margin-left: 22px;
     width: 92.97%;
     height: 26%/* 22.77% */;
@@ -17,79 +13,64 @@
 }
 
 .picture-container{
-    max-width: 35%;
-    max-height: 40%;
+/*     max-width: 35%;
+    max-height: 40%; */
 
 }
 
 .picture1 {
-        position: absolute;
-        margin-top: -15px;
-        margin-left: 275px;
-        width: 85%;  /* 30.83% */
-        height: auto;
+    z-index: -1;
+/*     margin-top: 25px;
+    margin-left: 150px; */
 }
 
 .coming-soon-position {
-    position: absolute;
     font-family: 'object Sans';
-    font-size: 25px;
-    margin-top: 5px;
-    margin-left: 1275px;
-    width: 13%;
-    height: 0;
+    font-size: 20px;
     color: black;
 }
 
 .fotografa-position {
-    position: absolute;
     font-family: 'object Sans';
-    font-size: 20px;
-    margin-top: 195px;
-    margin-left: 22px;
-    width: 9.218%;
-    height: 4.81%;
+    font-size: 25px;
     overflow: hidden;       
     color:black;
 }
 
 .email-position {
-    position: absolute;
     font-family: 'Object Sans';
     font-size: 20px;
-    margin-top: 660px;
+/*     margin-top: 660px;
     margin-left: 22px;
     width: 12.083%;
-    height: 3.29%;
+    height: 3.29%; */
     color:black;
 }
 
 .phone-number-position{
-    position: absolute;
     font-family: 'Object Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color: black;
-    margin-top: 665px;
+/*     margin-top: 665px;
     margin-left: 280px;
-    width: 11%;
-    height: 2%;
+    width: 45%;
+    height: 10%; */
 }
 
 .ig-position {
-    position: absolute;
     font-family: 'Object Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color:black;
-    margin-top: 658px;
+/*     margin-top: 658px;
     margin-left: 1350px;
     width: 5%;
-    height: 0%;
+    height: 0%; */
 }
 
 /* .body-about {
