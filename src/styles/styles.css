@@ -27,10 +27,6 @@ body {
 .email-position {
     font-family: 'Object Sans';
     font-size: 20px;
-/*     margin-top: 660px;
-    margin-left: 22px;
-    width: 12.083%;
-    height: 3.29%; */
     color:black;
 }
 
@@ -39,10 +35,6 @@ body {
     font-style: normal;
     font-size: 20px;
     color: black;
-/*     margin-top: 665px;
-    margin-left: 280px;
-    width: 45%;
-    height: 10%; */
 }
 
 .ig-position {
@@ -50,61 +42,11 @@ body {
     font-style: normal;
     font-size: 20px;
     color:black;
-/*     margin-top: 658px;
-    margin-left: 1350px;
-    width: 5%;
-    height: 0%; */
 }
 
 
-
-/* .body-about {
-    position: relative;
-    margin-top: 0;
-    margin-left: 0;
-    width: 1920px;
-    height: 1080px;
-    background-color: rgba(235.88, 235.88, 229, 1);
+@media (max-width: 767px) {
+    .h-75 {
+        height: auto !important;
+    }
 }
-
-.header-about-name {
-    font-family: 'Object Sans';
-    font-size: 30px;
-    text-align: left;
-    color: black;
-    margin-top: 61px;
-    margin-left: 66px;
-    width: 204px;
-    height: 52px;
-    overflow: hidden;
-}
-
-.header-about-work {
-    font-family: 'Object Sans';
-    font-size: 30px;
-    text-align: left;
-    margin-left: 1633px;
-    width: 112px;
-    height: 52px;
-    overflow: hidden;
-    color: black;
-}
-
-.header-about-about {
-    font-family: 'Object Sans';
-    font-size: 30px;
-    text-decoration: underline;
-    line-height: 31px;
-    text-align: left;
-    color: black;
-    margin-left: 1754px;
-    width: 126px;
-    height: 52px;
-    overflow: hidden;
-}
-
-.img-about {
-
-}
-
- */
